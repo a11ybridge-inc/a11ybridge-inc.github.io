@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A11YBRIDGE — Accessibility Consulting for GCC, Africa & the Middle East</title>
+  <meta name="description" content="A11YBRIDGE helps organizations in the GCC, Africa, and Middle East build inclusive digital products through accessibility audits, training, strategy, and conformance reporting." />
+  <meta property="og:title" content="A11YBRIDGE — Digital Accessibility Consulting" />
+  <meta property="og:description" content="Expert accessibility services for organizations across GCC, Africa and the Middle East." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#01696f" />
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ── HEADER ─────────────────────────────────────── -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+
+        <a href="index.html" class="site-logo" aria-label="A11YBRIDGE home">
+          <!-- Inline SVG logo -->
+          <svg class="logo-mark" width="40" height="40" viewBox="0 0 1024 1024" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .lbg { fill: #01696f; }
+              .lst { fill: none; stroke: #ffffff; stroke-linecap: round; stroke-linejoin: round; }
+              .lac { fill: none; stroke: #5dcbd2; stroke-linecap: round; stroke-linejoin: round; }
+              [data-theme="dark"] .lbg { fill: #4ec9d1; }
+              [data-theme="dark"] .lst { stroke: #0d1f20; }
+              [data-theme="dark"] .lac { stroke: #01696f; }
+            </style>
+            <rect class="lbg" x="0" y="0" width="1024" height="1024" rx="120" ry="120"/>
+            <path class="lac" stroke-width="28" d="M154 585 C302 584 411 504 448 368"/>
+            <path class="lac" stroke-width="28" d="M870 585 C722 584 613 504 576 368"/>
+            <path class="lst" stroke-width="26" d="M448 292 L448 568"/>
+            <path class="lst" stroke-width="26" d="M576 292 L576 568"/>
+            <path class="lst" stroke-width="22" d="M154 585 C354 570 670 570 870 585"/>
+            <path class="lac" stroke-width="22" d="M354 700 C461 602 600 560 748 594"/>
+          </svg>
+          <span class="logo-wordmark">A11Y<span>BRIDGE</span></span>
+        </a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul class="nav-links" role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+            <!-- injected by JS -->
+          </button>
+
+          <a href="contact.html" class="btn btn-primary nav-cta">Work with us</a>
+
+          <button class="menu-toggle" aria-expanded="false" aria-label="Open menu" aria-controls="nav-links">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ── MAIN ───────────────────────────────────────── -->
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="home-hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-content">
+            <span class="hero-eyebrow">Accessibility. Done Right.</span>
+            <h1 id="hero-heading">
+              Building an inclusive digital world — across <em>GCC, Africa &amp; the Middle East</em>
+            </h1>
+            <p class="hero-lead">
+              No matter where you are on your accessibility journey, A11YBRIDGE provides expert guidance, training, and tools to help your organization create digital products that work for everyone.
+            </p>
+            <div class="hero-actions">
+              <a href="services.html" class="btn btn-primary">Explore our services</a>
+              <a href="contact.html" class="btn btn-outline">Talk to our team</a>
+            </div>
+            <div class="hero-trust">
+              <span class="trust-label">Aligned with</span>
+              <ul class="trust-list" role="list">
+                <li>WCAG 2.2</li>
+                <li>EN 301 549</li>
+                <li>Section 508</li>
+                <li>ISO/IEC 40500</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <!-- Abstract accessibility SVG illustration -->
+            <svg viewBox="0 0 480 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <!-- Background circles -->
+              <circle cx="240" cy="200" r="180" fill="var(--color-primary-light)" opacity="0.6"/>
+              <circle cx="240" cy="200" r="130" fill="var(--color-primary-light)" opacity="0.6"/>
+
+              <!-- Bridge structure -->
+              <path d="M80 280 Q240 80 400 280" stroke="var(--color-primary)" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <line x1="130" y1="280" x2="130" y2="210" stroke="var(--color-primary)" stroke-width="3" stroke-linecap="round"/>
+              <line x1="350" y1="280" x2="350" y2="210" stroke="var(--color-primary)" stroke-width="3" stroke-linecap="round"/>
+              <line x1="80" y1="282" x2="400" y2="282" stroke="var(--color-primary)" stroke-width="3" stroke-linecap="round"/>
+
+              <!-- Connecting cables -->
+              <line x1="130" y1="212" x2="240" y2="110" stroke="var(--color-primary-mid)" stroke-width="1.5" stroke-dasharray="4 4"/>
+              <line x1="350" y1="212" x2="240" y2="110" stroke="var(--color-primary-mid)" stroke-width="1.5" stroke-dasharray="4 4"/>
+              <line x1="240" y1="110" x2="240" y2="282" stroke="var(--color-primary-mid)" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+              <!-- People dots -->
+              <circle cx="160" cy="282" r="10" fill="var(--color-primary)"/>
+              <circle cx="240" cy="282" r="10" fill="#5dcbd2"/>
+              <circle cx="310" cy="282" r="10" fill="var(--color-primary)"/>
+
+              <!-- Accessibility symbol -->
+              <circle cx="240" cy="90" r="24" fill="var(--color-primary)"/>
+              <circle cx="240" cy="82" r="5" fill="white"/>
+              <path d="M240 89 L240 107 M233 96 L247 96" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M233 107 L240 107 L247 114" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+              <!-- Globe regions -->
+              <circle cx="380" cy="110" r="40" fill="none" stroke="var(--color-primary-mid)" stroke-width="1.5" opacity="0.5"/>
+              <ellipse cx="380" cy="110" rx="18" ry="40" fill="none" stroke="var(--color-primary-mid)" stroke-width="1.5" opacity="0.5"/>
+              <line x1="340" y1="110" x2="420" y2="110" stroke="var(--color-primary-mid)" stroke-width="1.5" opacity="0.5"/>
+
+              <!-- Small dots representing region connectivity -->
+              <circle cx="370" cy="102" r="4" fill="var(--color-primary)" opacity="0.8"/>
+              <circle cx="392" cy="120" r="4" fill="#5dcbd2" opacity="0.8"/>
+              <circle cx="378" cy="125" r="3" fill="var(--color-primary)" opacity="0.6"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services strip -->
+    <section class="services-strip" aria-labelledby="services-strip-heading">
+      <div class="container container--default">
+        <div class="strip-header reveal">
+          <h2 id="services-strip-heading">What we do</h2>
+          <p>End-to-end accessibility services tailored for organizations building digital products for diverse, growing markets.</p>
+          <a href="services.html" class="service-link">
+            View all services
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="strip-grid">
+
+          <article class="strip-card reveal reveal-delay-1">
+            <div class="strip-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <h3>Accessibility Assessments</h3>
+            <p>Actionable audits, pulse checks, and content reviews to improve your digital products.</p>
+            <a href="services.html#assessments" class="strip-card-link" aria-label="Learn more about Accessibility Assessments">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <article class="strip-card reveal reveal-delay-2">
+            <div class="strip-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>
+            </div>
+            <h3>Conformance Reports</h3>
+            <p>Official VPAT®-based reports demonstrating your current accessibility conformance level.</p>
+            <a href="services.html#conformance" class="strip-card-link" aria-label="Learn more about Conformance Reports">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <article class="strip-card reveal reveal-delay-3">
+            <div class="strip-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Education &amp; Training</h3>
+            <p>The Accessibility Enablement Program for Teams — skills, confidence, and lasting capability.</p>
+            <a href="services.html#training" class="strip-card-link" aria-label="Learn more about Education and Training">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <article class="strip-card reveal reveal-delay-1">
+            <div class="strip-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3>Strategy &amp; Policy</h3>
+            <p>Integrate accessibility into your ways of working with pragmatic, goal-driven consulting.</p>
+            <a href="services.html#strategy" class="strip-card-link" aria-label="Learn more about Strategy and Policy">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <article class="strip-card reveal reveal-delay-2">
+            <div class="strip-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+            </div>
+            <h3>AccessibilityOps</h3>
+            <p>Operational support to build and expand your organization's accessibility capability over time.</p>
+            <a href="services.html#ops" class="strip-card-link" aria-label="Learn more about AccessibilityOps">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <article class="strip-card reveal reveal-delay-3">
+            <div class="strip-card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><circle cx="12" cy="12" r="10"/></svg>
+            </div>
+            <h3>Equitable Research &amp; Design</h3>
+            <p>Inclusive UX research and design with diverse users to create equitable digital experiences.</p>
+            <a href="services.html#research" class="strip-card-link" aria-label="Learn more about Equitable Research and Design">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Region focus -->
+    <section class="region-section" aria-labelledby="region-heading">
+      <div class="container container--default">
+        <div class="region-inner reveal">
+          <div class="region-content">
+            <span class="service-tag">Our reach</span>
+            <h2 id="region-heading">Designed for the markets that are building tomorrow</h2>
+            <p>Organizations across the GCC, Africa, and the Middle East face unique regulatory landscapes, diverse languages, and rapidly expanding digital infrastructure. A11YBRIDGE brings deep WCAG expertise calibrated for your specific context — government portals, fintech platforms, education systems, and public services.</p>
+            <ul class="region-list" role="list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Arabic language &amp; RTL layout accessibility
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Alignment with regional regulatory requirements
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Government, education, health, and fintech sectors
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Multilingual, multicultural user research
+              </li>
+            </ul>
+            <a href="about.html" class="btn btn-primary" style="margin-top: var(--space-6);">About A11YBRIDGE</a>
+          </div>
+          <div class="region-map" aria-hidden="true">
+            <!-- Stylised region map SVG -->
+            <svg viewBox="0 0 400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="360" rx="20" fill="var(--color-surface-teal)"/>
+
+              <!-- GCC / Middle East blob -->
+              <path d="M220 100 Q260 80 290 110 Q320 140 300 180 Q280 220 250 210 Q220 200 200 175 Q180 150 190 125 Z"
+                fill="var(--color-primary)" opacity="0.25"/>
+              <!-- Africa blob -->
+              <path d="M140 160 Q180 140 200 175 Q220 210 200 260 Q180 300 140 295 Q100 290 90 250 Q80 210 100 185 Z"
+                fill="var(--color-primary)" opacity="0.18"/>
+
+              <!-- Region dots -->
+              <circle cx="260" cy="145" r="8" fill="var(--color-primary)"/>
+              <circle cx="235" cy="175" r="5" fill="var(--color-primary)" opacity="0.7"/>
+              <circle cx="155" cy="220" r="7" fill="var(--color-primary)"/>
+              <circle cx="165" cy="260" r="5" fill="var(--color-primary)" opacity="0.7"/>
+              <circle cx="200" cy="195" r="4" fill="#5dcbd2"/>
+
+              <!-- Labels -->
+              <text x="270" y="132" font-family="sans-serif" font-size="11" fill="var(--color-primary)" font-weight="600">GCC</text>
+              <text x="238" y="200" font-family="sans-serif" font-size="11" fill="var(--color-primary)" font-weight="600">Middle East</text>
+              <text x="105" y="250" font-family="sans-serif" font-size="11" fill="var(--color-primary)" font-weight="600">Africa</text>
+
+              <!-- Connection lines -->
+              <line x1="260" y1="145" x2="200" y2="195" stroke="var(--color-primary)" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+              <line x1="155" y1="220" x2="200" y2="195" stroke="var(--color-primary)" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Differentiators -->
+    <section class="differentiators" aria-labelledby="diff-heading">
+      <div class="container container--default">
+        <div class="differentiators-header reveal">
+          <h2 id="diff-heading">What sets us apart</h2>
+          <p>We're not just consultants — we're advocates for digital equity in every market we serve.</p>
+        </div>
+        <div class="diff-grid">
+
+          <div class="diff-item reveal reveal-delay-1">
+            <div class="diff-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+            </div>
+            <h3>Leading expertise</h3>
+            <p>3+ years of hands-on WCAG auditing, assistive technology testing, and accessibility consulting across sectors.</p>
+          </div>
+
+          <div class="diff-item reveal reveal-delay-2">
+            <div class="diff-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3>Customisable solutions</h3>
+            <p>Every engagement is scoped to your team's needs — from quick pulse checks to full organizational transformation programs.</p>
+          </div>
+
+          <div class="diff-item reveal reveal-delay-3">
+            <div class="diff-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Global policy understanding</h3>
+            <p>Deep knowledge of WCAG 2.2, EN 301 549, Section 508, and emerging regional frameworks relevant to GCC and African markets.</p>
+          </div>
+
+          <div class="diff-item reveal reveal-delay-1">
+            <div class="diff-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Friendly, non-judgmental approach</h3>
+            <p>We meet organizations where they are. No shame, no jargon — just clear, constructive guidance that builds confidence.</p>
+          </div>
+
+          <div class="diff-item reveal reveal-delay-2">
+            <div class="diff-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3>Commitment to social responsibility</h3>
+            <p>We believe accessibility is a human right. Our work directly advances digital equity for people with disabilities across the region.</p>
+          </div>
+
+          <div class="diff-item reveal reveal-delay-3">
+            <div class="diff-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3>Leading by example</h3>
+            <p>Every deliverable we produce — websites, documents, reports — is itself WCAG-compliant. We practice what we teach.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" aria-labelledby="cta-heading">
+      <div class="container">
+        <h2 id="cta-heading" class="reveal">Ready to build a more accessible digital product?</h2>
+        <p class="reveal reveal-delay-1">Whether you're starting from zero or looking to advance your existing accessibility program, we'd love to hear about your goals.</p>
+        <div class="cta-actions reveal reveal-delay-2">
+          <a href="contact.html" class="btn btn-primary">Get in touch</a>
+          <a href="services.html" class="btn btn-outline">Browse services</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo" aria-label="A11YBRIDGE home">
+            <svg width="36" height="36" viewBox="0 0 1024 1024" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0" y="0" width="1024" height="1024" rx="120" ry="120" fill="#01696f"/>
+              <path fill="none" stroke="#5dcbd2" stroke-width="28" stroke-linecap="round" d="M154 585 C302 584 411 504 448 368"/>
+              <path fill="none" stroke="#5dcbd2" stroke-width="28" stroke-linecap="round" d="M870 585 C722 584 613 504 576 368"/>
+              <path fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" d="M448 292 L448 568"/>
+              <path fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" d="M576 292 L576 568"/>
+              <path fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round" d="M154 585 C354 570 670 570 870 585"/>
+              <path fill="none" stroke="#5dcbd2" stroke-width="22" stroke-linecap="round" d="M354 700 C461 602 600 560 748 594"/>
+            </svg>
+            <span class="logo-wordmark">A11Y<span>BRIDGE</span></span>
+          </a>
+          <p class="footer-tagline">Bridging the gap between digital products and the people who use them — across GCC, Africa &amp; the Middle East.</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="services.html#assessments">Accessibility Assessments</a></li>
+            <li><a href="services.html#conformance">Conformance Reports</a></li>
+            <li><a href="services.html#strategy">Strategy &amp; Policy</a></li>
+            <li><a href="services.html#training">Education &amp; Training</a></li>
+            <li><a href="services.html#ops">AccessibilityOps</a></li>
+            <li><a href="services.html#research">Equitable Research</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Company</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mailto:hello@a11ybridge.com">hello@a11ybridge.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Standards</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener">WCAG 2.2</a></li>
+            <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/" target="_blank" rel="noopener">EN 301 549</a></li>
+            <li><a href="https://www.access-board.gov/ict/" target="_blank" rel="noopener">Section 508</a></li>
+            <li><a href="https://www.iso.org/standard/58625.html" target="_blank" rel="noopener">ISO/IEC 40500</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 A11YBRIDGE Inc. Ottawa, Ontario, Canada. All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Legal navigation">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Accessibility Statement</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="transform:translate(-${scrollX}px,-${scrollY}px);transform-origin:top left">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
